@@ -29,7 +29,7 @@ export const GET = async (req: Request) => {
 
     const payload: ActionGetResponse = {
       title: "NAH, I'D WIN.",
-      icon: new URL("/yamcha.jpg", requestUrl.origin).toString(),
+      icon: new URL("/yamcha.png", requestUrl.origin).toString(),
       description: "Help Yamcha win the repechage!",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
